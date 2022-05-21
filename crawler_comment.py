@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 import os
 from time import sleep
 
+
 def readData(fileName):
     f = open(fileName, 'r', encoding='utf-8')
     data = []
